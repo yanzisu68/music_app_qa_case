@@ -21,6 +21,10 @@ void main() {
     // test cases
     const homePageTitle = "Music App";
     const homePageDefaultText = "No Albums added yet";
+    const searchHintText = "Search for albums";
+    const emptySearchResult = "Something wrong happens";
+
+    final SerializableFinder searchIconFinder = find.byType('AppbarSearchButton');
 
     // const childWidget = Padding(padding: EdgeInsets.all(8.0), child: Icon(IconData(0xe567, fontFamily: 'MaterialIcons')));
 
@@ -37,18 +41,45 @@ void main() {
       // 问题就卡在这里 无法定位到元素 麻烦了！！！
       // await driver?.tap(findsOneWidget as SerializableFinder);
       // expect(await driver?.getWidgetDiagnostics(find.byWidget(childWidget)), findsOneWidget);
+      await driver?.tap(searchIconFinder);
+      await driver?.waitFor(find.text(searchHintText));
+      expect(await driver?.getText(find.text(searchHintText)), searchHintText);
     });
 
     test("check empty search", () async {
-
+      await driver?.tap(searchIconFinder);
+      await driver?.waitFor(find.text(searchHintText));
+      await driver?.tap(find.byType('TextField'));
+      await driver?.enterText("");
+      // await driver?.waitForAbsent(find.text(emptySearchResult));
+      await driver?.tap(searchIconFinder);
+      // await driver?.waitFor(find.text(emptySearchResult));
+      await driver?.waitUntilNoTransientCallbacks();
+      // expect(await driver?.getText(find.text(emptySearchResult)), emptySearchResult);
     });
 
     test("check search by album", () async {
-
+      // await Future.delayed(const Duration(seconds: 2));
+      await driver?.tap(searchIconFinder);
+      await driver?.waitFor(find.text(searchHintText));
+      await driver?.tap(find.byType('TextField'));
+      await driver?.enterText("Selena");
+      await driver?.tap(searchIconFinder);
+      await driver?.waitUntilNoTransientCallbacks();
     });
 
     test("check like album", () async {
-
+      await driver?.tap(searchIconFinder);
+      await driver?.waitFor(find.text(searchHintText));
+      await driver?.tap(find.byType('TextField'));
+      await driver?.enterText("Selena");
+      await driver?.tap(searchIconFinder);
+      await driver?.waitUntilNoTransientCallbacks();
+      // able to find album list
+      // scroll album
+      // click like button for several album
+      // back to homepage to assert the liked album count
+      await driver?.tap(find.byType('Column'));
     });
 
     test("check unlike album", () async {

@@ -34,6 +34,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.transparent,
         actions: [
           AppbarSearchButton(
+            key: const Key('searchIcon'),
             onClick: () async {
               await Navigator.of(context).pushNamed(Routes.kSearchPageRoute);
               //BlocProvider.of<FavoriteAlbumsBloc>(context).getAllFavAlbums();
