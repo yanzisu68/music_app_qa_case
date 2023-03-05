@@ -1,480 +1,192 @@
-2023-03-04 23:07:11.400686 >>> {command: get_health}
-2023-03-04 23:07:11.497197 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-04 23:07:11.506104 >>> {command: get_text, finderType: ByValueKey, keyValueString: input, keyValueType: String}
-2023-03-04 23:07:11.560610 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 12:09:07.436591 >>> {command: get_health}
-2023-03-05 12:09:07.524174 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 12:09:07.527598 >>> {command: get_text, finderType: ByValueKey, keyValueString: input, keyValueType: String}
-2023-03-05 12:09:07.573123 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:27:09.191509 >>> {command: get_health}
-2023-03-05 13:27:09.284799 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:27:09.292533 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 13:27:09.330979 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:30:05.638728 >>> {command: get_health}
-2023-03-05 13:30:05.741254 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:30:05.745022 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 13:30:05.802506 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:36:06.391505 >>> {command: get_health}
-2023-03-05 13:36:06.479905 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:36:06.482967 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 13:36:06.527056 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:37:02.887340 >>> {command: get_health}
-2023-03-05 13:37:02.980679 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:37:02.983760 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 13:37:03.033978 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
-#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
-#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
-#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
-#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
-<asynchronous suspension>
-, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:38:04.399090 >>> {command: get_health}
-2023-03-05 13:38:04.482539 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:55:32.707940 >>> {command: get_health}
-2023-03-05 13:55:32.812152 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:55:32.814633 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 13:55:34.599671 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:56:12.994366 >>> {command: get_health}
-2023-03-05 13:56:13.091035 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:56:13.093831 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 13:56:14.730156 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:56:14.737761 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 13:56:14.803491 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:59:14.890643 >>> {command: get_health}
-2023-03-05 13:59:14.990568 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:59:14.993011 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 13:59:16.804429 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 13:59:16.813316 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 13:59:16.882687 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:00:29.743165 >>> {command: get_health}
-2023-03-05 14:00:29.856118 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:00:29.859911 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:00:31.660671 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:00:31.669012 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:00:31.741719 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:06:47.458024 >>> {command: get_health}
-2023-03-05 14:06:47.544973 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:06:47.547377 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:06:49.208689 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:06:49.215693 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:06:49.295168 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:08:08.058809 >>> {command: get_health}
-2023-03-05 14:08:08.146784 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:08:08.149514 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:08:09.798631 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:08:09.810255 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:08:09.878907 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:08:09.879946 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:08:09.890465 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:19:11.137985 >>> {command: get_health}
-2023-03-05 14:19:11.225054 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:19:11.226302 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:19:12.812431 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:19:12.820916 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:19:12.896910 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:19:12.898497 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:19:12.911993 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:19:12.916786 >>> {command: get_text, finderType: ByValueKey, keyValueString: home.no_albums_added, keyValueType: String}
-2023-03-05 14:20:25.467425 >>> {command: get_health}
-2023-03-05 14:20:25.557772 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:20:25.558824 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:20:27.217227 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:20:27.222487 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:20:27.297722 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:20:27.299190 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:20:27.309957 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:20:27.315396 >>> {command: get_text, finderType: ByValueKey, keyValueString: home.no_albums_added, keyValueType: String}
-2023-03-05 14:25:30.582361 >>> {command: get_health}
-2023-03-05 14:25:30.675642 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:25:30.678122 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:25:32.520993 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:25:32.528980 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:25:32.606672 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:25:32.607712 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:25:32.621086 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:27:37.842603 >>> {command: get_health}
-2023-03-05 14:27:37.929991 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:27:37.932926 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:27:39.580471 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:27:39.585720 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:27:39.656345 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:27:39.657652 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:27:39.670155 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:27:39.683302 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:27:39.688237 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:14.855685 >>> {command: get_health}
-2023-03-05 14:31:14.953923 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:14.956892 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:31:16.661289 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:16.669014 >>> {command: waitFor, finderType: ByText, text: Music App}
-2023-03-05 14:31:16.768628 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:16.769975 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:31:16.783618 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:16.787372 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:31:16.791318 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:58.424033 >>> {command: get_health}
-2023-03-05 14:31:58.512105 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:31:58.513208 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:32:00.112569 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:32:00.119094 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:32:00.198706 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:32:00.203590 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:32:00.208416 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:36:24.144259 >>> {command: get_health}
-2023-03-05 14:36:24.244209 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:36:24.246834 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:36:25.927783 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:36:25.939826 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:36:26.019919 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:36:26.026805 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:36:26.033142 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:36:26.033643 >>> {command: get_text, finderType: ByText, text: search}
-2023-03-05 14:37:36.374705 >>> {command: get_health}
-2023-03-05 14:37:36.493714 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:37:36.498042 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:37:38.282281 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:37:38.294062 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:37:38.374696 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:37:38.379913 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:37:38.385469 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:37:38.385873 >>> {command: get_text, finderType: ByText, text: search}
-2023-03-05 14:41:10.922094 >>> {command: get_health}
-2023-03-05 14:41:10.993915 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:41:10.994996 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 14:41:12.777229 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:41:12.784627 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 14:41:12.867394 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:41:12.876112 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 14:41:12.882803 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 14:41:12.885173 >>> {command: tap, finderType: ByValueKey, keyValueString: search, keyValueType: String}
-2023-03-05 15:40:41.065134 >>> {command: get_health}
-2023-03-05 15:40:41.152893 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 15:40:41.154028 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 15:40:42.825281 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 15:40:42.831821 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 15:40:42.914072 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 15:40:42.919615 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 15:40:42.926502 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:01.868409 >>> {command: get_health}
-2023-03-05 16:50:01.956581 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:01.958116 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 16:50:03.836352 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:03.842435 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 16:50:03.981603 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:03.986650 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 16:50:03.993578 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:03.995827 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 16:50:04.105652 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:50:04.107457 >>> {command: tap, finderType: ByText, text: Search for albums}
-2023-03-05 16:51:13.073727 >>> {command: get_health}
-2023-03-05 16:51:13.165520 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:51:13.166664 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 16:51:14.833558 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:51:14.848170 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 16:51:14.933331 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:51:14.947230 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 16:51:14.954481 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:51:14.956761 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 16:51:15.066946 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:27.102778 >>> {command: get_health}
-2023-03-05 16:54:27.191886 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:27.195251 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 16:54:28.907196 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:28.916207 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 16:54:29.003745 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:29.011108 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 16:54:29.030684 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:29.032665 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 16:54:29.142548 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:29.144034 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 16:54:29.582160 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 16:54:29.582641 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 16:54:29.588212 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:09.841070 >>> {command: get_health}
-2023-03-05 17:03:09.928638 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:09.931343 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:03:11.636876 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:11.643195 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:03:11.730908 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:11.754685 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:03:11.761012 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:11.763222 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:03:11.879058 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:11.880521 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:03:12.279266 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:12.279725 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:03:12.285079 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:12.286353 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:03:12.333343 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:12.333750 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:03:12.386104 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:03:12.386896 >>> {command: tap, finderType: ByText, text: Search for albums}
-2023-03-05 17:05:47.575080 >>> {command: get_health}
-2023-03-05 17:05:47.658719 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:47.659877 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:05:48.949453 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:48.956742 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:05:49.231542 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.236826 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:05:49.243834 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.244651 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:05:49.357310 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.358858 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:05:49.756050 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.756759 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:05:49.762706 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.764252 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:05:49.812558 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.812764 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:05:49.819325 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.819849 >>> {command: enter_text, text: }
-2023-03-05 17:05:49.887723 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:49.888522 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:05:50.402466 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:05:50.403266 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:05:50.417960 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:07.671206 >>> {command: get_health}
-2023-03-05 17:08:07.756930 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:07.760332 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:08:09.388308 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:09.397417 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:08:09.469637 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:09.485341 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:08:09.493153 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:09.495715 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:08:09.608652 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:09.610653 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:08:10.035631 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.036093 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:08:10.040832 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.042489 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:08:10.088927 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.089531 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:08:10.139533 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.141443 >>> {command: enter_text, text: }
-2023-03-05 17:08:10.161118 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.161590 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:08:10.773105 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:08:10.773991 >>> {command: waitFor, finderType: ByText, text: Something wrong happens}
-2023-03-05 17:09:44.815343 >>> {command: get_health}
-2023-03-05 17:09:44.900432 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:44.901606 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:09:46.576357 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:46.585212 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:09:46.664217 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:46.666245 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:09:46.673390 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:46.675990 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:09:46.792521 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:46.793378 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:09:47.184018 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.184859 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:09:47.189802 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.192294 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:09:47.244305 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.244944 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:09:47.785514 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.787063 >>> {command: enter_text, text: }
-2023-03-05 17:09:47.809648 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.810054 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:09:47.846651 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.847503 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:09:47.856510 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:09:47.857050 >>> {command: get_text, finderType: ByText, text: Something wrong happens}
-2023-03-05 17:11:23.168814 >>> {command: get_health}
-2023-03-05 17:11:23.254681 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:23.255809 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:11:24.922604 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:24.932638 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:11:25.015747 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.023606 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:11:25.029867 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.032407 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:11:25.152688 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.153643 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:11:25.611971 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.612416 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:11:25.617893 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.619302 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:11:25.668269 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.668731 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:11:25.722355 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.724249 >>> {command: enter_text, text: }
-2023-03-05 17:11:25.765433 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:25.766118 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:11:26.191193 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.192919 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:11:26.204919 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.207411 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:11:26.217082 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.217690 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:11:26.493517 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.494192 >>> {command: enter_text, text: Selena}
-2023-03-05 17:11:26.501932 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.502542 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:11:26.537376 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:11:26.537810 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:11:26.575502 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:17.104157 >>> {command: get_health}
-2023-03-05 17:18:17.192435 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:17.193568 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:18:18.784320 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:18.790297 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:18:18.877068 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:18.878777 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:18:18.883743 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:18.884988 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:18:18.992801 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:18.994425 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:18:19.422853 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.423638 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:18:19.429014 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.430587 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:18:19.475692 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.475992 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:18:19.528054 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.529666 >>> {command: enter_text, text: }
-2023-03-05 17:18:19.568208 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.568597 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:18:19.936999 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:19.938050 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:18:20.291373 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:20.293570 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:18:20.331996 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:22.337501 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:18:22.371975 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:24.376470 >>> {command: enter_text, text: Selena}
-2023-03-05 17:18:24.405429 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:26.409315 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:18:26.485738 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:18:28.489241 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:18:28.502444 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:43.404354 >>> {command: get_health}
-2023-03-05 17:20:43.487549 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:43.488662 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:20:45.125997 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.132550 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:20:45.214863 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.219787 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:20:45.225741 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.226975 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:20:45.335291 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.335688 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:20:45.755493 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.755949 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:20:45.760817 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.762347 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:20:45.809586 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.810420 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:20:45.860070 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.861620 >>> {command: enter_text, text: }
-2023-03-05 17:20:45.887942 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:45.888409 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:20:46.278202 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:46.279678 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:20:46.292508 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:48.300509 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:20:48.399927 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:50.404053 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:20:50.418710 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:52.422188 >>> {command: enter_text, text: Selena}
-2023-03-05 17:20:52.443059 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:57.446847 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:20:57.472011 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:20:59.475732 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:20:59.487601 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:52.206446 >>> {command: get_health}
-2023-03-05 17:22:52.291756 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:52.292858 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:22:53.916504 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:53.922082 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:22:53.994399 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:53.999713 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:22:54.006769 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.008145 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:22:54.116007 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.117424 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:22:54.539595 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.540350 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:22:54.545496 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.547050 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:22:54.594404 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.594629 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:22:54.655501 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.657124 >>> {command: enter_text, text: }
-2023-03-05 17:22:54.695483 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:54.696373 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:22:55.094146 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:55.095493 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:22:55.108399 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:57.114891 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:22:57.212601 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:22:59.216736 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:22:59.231593 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:23:01.234143 >>> {command: tap, finderType: ByText, text: Search for albums}
-2023-03-05 17:26:53.927614 >>> {command: get_health}
-2023-03-05 17:26:54.019316 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:54.020494 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
-2023-03-05 17:26:55.721461 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:55.727533 >>> {command: get_text, finderType: ByText, text: Music App}
-2023-03-05 17:26:55.821070 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:55.827961 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
-2023-03-05 17:26:55.833410 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:55.834597 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:26:55.946003 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:55.947671 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:26:56.367481 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.367906 >>> {command: get_text, finderType: ByText, text: Search for albums}
-2023-03-05 17:26:56.373141 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.374849 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:26:56.421099 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.421353 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:26:56.477973 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.479125 >>> {command: enter_text, text: }
-2023-03-05 17:26:56.518535 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.519065 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:26:56.993550 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:56.995259 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:26:57.012321 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:26:59.019269 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:26:59.115976 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:27:01.119648 >>> {command: waitFor, finderType: ByText, text: Search for albums}
-2023-03-05 17:27:01.135484 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:27:03.138947 >>> {command: tap, finderType: ByType, type: TextField}
-2023-03-05 17:27:03.278193 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:27:05.281154 >>> {command: enter_text, text: Selena}
-2023-03-05 17:27:05.326690 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:27:10.330247 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
-2023-03-05 17:27:10.477685 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
-2023-03-05 17:27:12.481061 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
-2023-03-05 17:27:12.567380 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:39.108750 >>> {command: get_health}
+2023-03-05 22:29:39.197271 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:39.198553 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 22:29:40.564115 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:40.567354 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 22:29:40.827717 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:40.833757 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 22:29:40.843502 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:40.848311 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:40.970388 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:40.971951 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:29:41.411767 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:41.413166 >>> {command: get_text, finderType: ByText, text: Search for albums}
+2023-03-05 22:29:41.417748 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:41.419941 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:41.467808 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:41.468334 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:29:41.520707 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:41.520892 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:29:42.211173 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:42.212966 >>> {command: enter_text, text: }
+2023-03-05 22:29:42.224250 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:42.224856 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:43.307367 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:43.308390 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:29:44.332141 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:44.332845 >>> {command: get_text, finderType: ByText, text: Somthin wrong happens!}
+2023-03-05 22:29:45.348833 <<< {isError: false, response: {text: Somthin wrong happens!}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:45.351618 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:46.442651 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:46.443581 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:29:47.465837 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:47.466904 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:29:48.518981 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:48.519989 >>> {command: enter_text, text: Selena}
+2023-03-05 22:29:48.541242 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:48.541874 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:49.554122 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:49.554599 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:29:50.567473 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:50.570963 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:51.646254 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:51.647191 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:29:52.683212 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:52.683972 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:29:53.728244 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:53.728774 >>> {command: enter_text, text: Selena}
+2023-03-05 22:29:53.736413 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:53.737161 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:29:54.752231 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:54.752894 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:29:55.762359 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:29:55.762862 >>> {command: tap, finderType: ByType, type: Column}
+2023-03-05 22:29:56.843332 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:28.178253 >>> {command: get_health}
+2023-03-05 22:30:28.258361 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:28.259443 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 22:30:29.852107 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:29.858452 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 22:30:29.937123 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:29.942292 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 22:30:29.947107 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:29.948050 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:30.058711 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:30.059910 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:30:30.457990 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:30.458650 >>> {command: get_text, finderType: ByText, text: Search for albums}
+2023-03-05 22:30:30.464027 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:30.465446 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:30.510841 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:30.511095 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:30:30.563324 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:30.564042 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:30:31.153772 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:31.155408 >>> {command: enter_text, text: }
+2023-03-05 22:30:31.166877 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:31.167243 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:32.253815 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:32.255231 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:30:33.282394 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:33.283293 >>> {command: get_text, finderType: ByText, text: Somthin wrong happens!}
+2023-03-05 22:30:34.299661 <<< {isError: false, response: {text: Somthin wrong happens!}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:34.301328 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:35.389373 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:35.389888 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:30:36.395939 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:36.396823 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:30:37.453458 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:37.454622 >>> {command: enter_text, text: Selena}
+2023-03-05 22:30:37.476349 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:37.477002 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:38.525942 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:38.526461 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:30:39.547748 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:39.550891 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:40.567133 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:40.567903 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:30:41.580045 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:41.581337 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:30:42.652001 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:42.652801 >>> {command: enter_text, text: Selena}
+2023-03-05 22:30:42.659665 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:42.660604 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:30:43.685739 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:43.686481 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:30:44.696464 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:30:44.697066 >>> {command: tap, finderType: ByType, type: Column}
+2023-03-05 22:30:45.767924 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:51.887282 >>> {command: get_health}
+2023-03-05 22:31:51.982666 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:51.983695 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 22:31:53.589079 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:53.596409 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 22:31:53.672606 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:53.677479 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 22:31:53.682153 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:53.683059 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:31:53.786970 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:53.787794 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:31:54.212508 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.213142 >>> {command: get_text, finderType: ByText, text: Search for albums}
+2023-03-05 22:31:54.218321 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.219818 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:31:54.265739 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.265976 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:31:54.317952 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.318723 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:31:54.966106 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.967804 >>> {command: enter_text, text: }
+2023-03-05 22:31:54.978854 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:31:54.979789 >>> {command: waitForAbsent, finderType: ByText, text: Somthin wrong happens!}
+2023-03-05 22:32:24.259746 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:32:24.614858 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:24.615343 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:32:25.657521 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:25.659062 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:32:25.661695 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:25.662491 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:32:54.000752 >>> {command: get_health}
+2023-03-05 22:32:54.086521 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:54.087599 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 22:32:55.695978 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:55.701845 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 22:32:55.778842 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:55.785050 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 22:32:55.790284 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:55.791481 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:32:55.897046 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:55.898125 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:32:56.359296 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:56.359857 >>> {command: get_text, finderType: ByText, text: Search for albums}
+2023-03-05 22:32:56.364700 <<< {isError: false, response: {text: Search for albums}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:56.366154 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:32:56.412550 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:56.412802 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:32:56.466709 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:56.467516 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:32:57.168843 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:57.170580 >>> {command: enter_text, text: }
+2023-03-05 22:32:57.181646 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:57.182718 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:32:58.271707 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:58.272682 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:32:59.295475 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:32:59.296012 >>> {command: get_text, finderType: ByText, text: Somthin wrong happens!}
+2023-03-05 22:33:00.316983 <<< {isError: false, response: {text: Somthin wrong happens!}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:00.319311 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:33:01.408946 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:01.409836 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:33:02.432978 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:02.433500 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:33:03.485359 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:03.486183 >>> {command: enter_text, text: Selena}
+2023-03-05 22:33:03.506978 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:03.507665 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:33:04.520130 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:04.521001 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:33:05.532944 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:05.535429 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:33:06.610283 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:06.610972 >>> {command: waitFor, finderType: ByText, text: Search for albums}
+2023-03-05 22:33:07.628 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:07.628392 >>> {command: tap, finderType: ByType, type: TextField}
+2023-03-05 22:33:08.685663 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:08.686445 >>> {command: enter_text, text: Selena}
+2023-03-05 22:33:08.738918 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:08.739376 >>> {command: tap, finderType: ByType, type: AppbarSearchButton}
+2023-03-05 22:33:09.703768 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:09.704436 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2023-03-05 22:33:10.713626 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 22:33:10.714301 >>> {command: tap, finderType: ByType, type: Column}
+2023-03-05 22:33:11.787675 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}

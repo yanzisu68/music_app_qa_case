@@ -22,7 +22,7 @@ void main() {
     const homePageTitle = "Music App";
     const homePageDefaultText = "No Albums added yet";
     const searchHintText = "Search for albums";
-    const emptySearchResult = "Something wrong happens";
+    const errorSearchResult = "Somthin wrong happens!";
 
     final SerializableFinder searchIconFinder = find.byType('AppbarSearchButton');
 
@@ -43,11 +43,11 @@ void main() {
       await driver?.waitFor(find.text(searchHintText));
       await driver?.tap(find.byType('TextField'));
       await driver?.enterText("");
-      // await driver?.waitForAbsent(find.text(emptySearchResult));
+      // await driver?.waitForAbsent(find.text(errorSearchResult));
       await driver?.tap(searchIconFinder);
-      // await driver?.waitFor(find.text(emptySearchResult));
+      // await driver?.waitFor(find.text(errorSearchResult));
       await driver?.waitUntilNoTransientCallbacks();
-      // expect(await driver?.getText(find.text(emptySearchResult)), emptySearchResult);
+      expect(await driver?.getText(find.text(errorSearchResult)), errorSearchResult);
     });
 
     test("check search by album", () async {
