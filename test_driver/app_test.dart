@@ -26,21 +26,13 @@ void main() {
 
     final SerializableFinder searchIconFinder = find.byType('AppbarSearchButton');
 
-    // const childWidget = Padding(padding: EdgeInsets.all(8.0), child: Icon(IconData(0xe567, fontFamily: 'MaterialIcons')));
-
     test("check default homepage display", () async {
-      // await driver?.waitFor(find.text(homePageTitle));
       expect(await driver?.getText(find.text(homePageTitle)), homePageTitle);
       expect(await driver?.getText(find.text(homePageDefaultText)), homePageDefaultText);
     });
 
 
     test("check search page", () async {
-      // 需要先定位到search icon
-      // 然后点击 检查跳转
-      // 问题就卡在这里 无法定位到元素 麻烦了！！！
-      // await driver?.tap(findsOneWidget as SerializableFinder);
-      // expect(await driver?.getWidgetDiagnostics(find.byWidget(childWidget)), findsOneWidget);
       await driver?.tap(searchIconFinder);
       await driver?.waitFor(find.text(searchHintText));
       expect(await driver?.getText(find.text(searchHintText)), searchHintText);
