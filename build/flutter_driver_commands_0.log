@@ -1,0 +1,187 @@
+2023-03-04 23:07:11.400686 >>> {command: get_health}
+2023-03-04 23:07:11.497197 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-04 23:07:11.506104 >>> {command: get_text, finderType: ByValueKey, keyValueString: input, keyValueType: String}
+2023-03-04 23:07:11.560610 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 12:09:07.436591 >>> {command: get_health}
+2023-03-05 12:09:07.524174 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 12:09:07.527598 >>> {command: get_text, finderType: ByValueKey, keyValueString: input, keyValueType: String}
+2023-03-05 12:09:07.573123 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:27:09.191509 >>> {command: get_health}
+2023-03-05 13:27:09.284799 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:27:09.292533 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 13:27:09.330979 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:30:05.638728 >>> {command: get_health}
+2023-03-05 13:30:05.741254 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:30:05.745022 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 13:30:05.802506 <<< {isError: true, response: Uncaught extension error while executing get_text: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:36:06.391505 >>> {command: get_health}
+2023-03-05 13:36:06.479905 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:36:06.482967 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 13:36:06.527056 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:37:02.887340 >>> {command: get_health}
+2023-03-05 13:37:02.980679 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:37:02.983760 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 13:37:03.033978 <<< {isError: true, response: Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 366 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?
+#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:51:61)
+#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:40:5)
+#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:366:14)
+#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:856:32)
+<asynchronous suspension>
+, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:38:04.399090 >>> {command: get_health}
+2023-03-05 13:38:04.482539 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:55:32.707940 >>> {command: get_health}
+2023-03-05 13:55:32.812152 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:55:32.814633 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 13:55:34.599671 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:56:12.994366 >>> {command: get_health}
+2023-03-05 13:56:13.091035 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:56:13.093831 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 13:56:14.730156 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:56:14.737761 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 13:56:14.803491 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:59:14.890643 >>> {command: get_health}
+2023-03-05 13:59:14.990568 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:59:14.993011 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 13:59:16.804429 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 13:59:16.813316 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 13:59:16.882687 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:00:29.743165 >>> {command: get_health}
+2023-03-05 14:00:29.856118 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:00:29.859911 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:00:31.660671 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:00:31.669012 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:00:31.741719 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:06:47.458024 >>> {command: get_health}
+2023-03-05 14:06:47.544973 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:06:47.547377 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:06:49.208689 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:06:49.215693 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:06:49.295168 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:08:08.058809 >>> {command: get_health}
+2023-03-05 14:08:08.146784 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:08:08.149514 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:08:09.798631 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:08:09.810255 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:08:09.878907 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:08:09.879946 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:08:09.890465 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:19:11.137985 >>> {command: get_health}
+2023-03-05 14:19:11.225054 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:19:11.226302 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:19:12.812431 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:19:12.820916 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:19:12.896910 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:19:12.898497 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:19:12.911993 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:19:12.916786 >>> {command: get_text, finderType: ByValueKey, keyValueString: home.no_albums_added, keyValueType: String}
+2023-03-05 14:20:25.467425 >>> {command: get_health}
+2023-03-05 14:20:25.557772 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:20:25.558824 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:20:27.217227 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:20:27.222487 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:20:27.297722 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:20:27.299190 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:20:27.309957 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:20:27.315396 >>> {command: get_text, finderType: ByValueKey, keyValueString: home.no_albums_added, keyValueType: String}
+2023-03-05 14:25:30.582361 >>> {command: get_health}
+2023-03-05 14:25:30.675642 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:25:30.678122 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:25:32.520993 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:25:32.528980 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:25:32.606672 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:25:32.607712 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:25:32.621086 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:27:37.842603 >>> {command: get_health}
+2023-03-05 14:27:37.929991 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:27:37.932926 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:27:39.580471 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:27:39.585720 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:27:39.656345 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:27:39.657652 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:27:39.670155 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:27:39.683302 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:27:39.688237 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:14.855685 >>> {command: get_health}
+2023-03-05 14:31:14.953923 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:14.956892 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:31:16.661289 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:16.669014 >>> {command: waitFor, finderType: ByText, text: Music App}
+2023-03-05 14:31:16.768628 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:16.769975 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:31:16.783618 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:16.787372 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:31:16.791318 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:58.424033 >>> {command: get_health}
+2023-03-05 14:31:58.512105 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:31:58.513208 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:32:00.112569 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:32:00.119094 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:32:00.198706 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:32:00.203590 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:32:00.208416 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:36:24.144259 >>> {command: get_health}
+2023-03-05 14:36:24.244209 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:36:24.246834 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:36:25.927783 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:36:25.939826 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:36:26.019919 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:36:26.026805 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:36:26.033142 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:36:26.033643 >>> {command: get_text, finderType: ByText, text: search}
+2023-03-05 14:37:36.374705 >>> {command: get_health}
+2023-03-05 14:37:36.493714 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:37:36.498042 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:37:38.282281 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:37:38.294062 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:37:38.374696 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:37:38.379913 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:37:38.385469 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:37:38.385873 >>> {command: get_text, finderType: ByText, text: search}
+2023-03-05 14:41:10.922094 >>> {command: get_health}
+2023-03-05 14:41:10.993915 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:41:10.994996 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 14:41:12.777229 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:41:12.784627 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 14:41:12.867394 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:41:12.876112 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 14:41:12.882803 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 14:41:12.885173 >>> {command: tap, finderType: ByValueKey, keyValueString: search, keyValueType: String}
+2023-03-05 15:40:41.065134 >>> {command: get_health}
+2023-03-05 15:40:41.152893 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 15:40:41.154028 >>> {command: waitForCondition, conditionName: FirstFrameRasterizedCondition}
+2023-03-05 15:40:42.825281 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 15:40:42.831821 >>> {command: get_text, finderType: ByText, text: Music App}
+2023-03-05 15:40:42.914072 <<< {isError: false, response: {text: Music App}, type: _extensionType, method: ext.flutter.driver}
+2023-03-05 15:40:42.919615 >>> {command: get_text, finderType: ByText, text: No Albums added yet}
+2023-03-05 15:40:42.926502 <<< {isError: false, response: {text: No Albums added yet}, type: _extensionType, method: ext.flutter.driver}
