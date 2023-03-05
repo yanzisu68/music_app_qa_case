@@ -32,7 +32,7 @@ void main() {
     });
 
 
-    test("check search page", () async {
+    test("check search page display", () async {
       await driver?.tap(searchIconFinder);
       await driver?.waitFor(find.text(searchHintText));
       expect(await driver?.getText(find.text(searchHintText)), searchHintText);
