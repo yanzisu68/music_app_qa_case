@@ -29,12 +29,15 @@ class _MusicService implements MusicService {
     };
     final _headers = <String, dynamic>{};
     final _data = <String, dynamic>{};
-    final _result = await _dio.fetch<Map<String, dynamic>>(
-        _setStreamType<HttpResponse<ArtistSearchResponse>>(
-            Options(method: 'GET', headers: _headers, extra: _extra)
-                .compose(_dio.options, '',
-                    queryParameters: queryParameters, data: _data)
-                .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+    // final _result = await _dio.fetch<Map<String, dynamic>>(
+    //     _setStreamType<HttpResponse<ArtistSearchResponse>>(
+    //         Options(method: 'GET', headers: _headers, extra: _extra)
+    //             .compose(_dio.options, '',
+    //                 queryParameters: queryParameters, data: _data)
+    //             .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+
+    // fix api 400 err in flutter
+    final _result = await Dio().get(baseUrl ?? _dio.options.baseUrl,queryParameters: queryParameters,options: Options(headers: _headers));
     final value = ArtistSearchResponse.fromJson(_result.data!);
     final httpResponse = HttpResponse(value, _result);
     return httpResponse;
@@ -54,12 +57,15 @@ class _MusicService implements MusicService {
     };
     final _headers = <String, dynamic>{};
     final _data = <String, dynamic>{};
-    final _result = await _dio.fetch<Map<String, dynamic>>(
-        _setStreamType<HttpResponse<GetTopAlbumsResponse>>(
-            Options(method: 'GET', headers: _headers, extra: _extra)
-                .compose(_dio.options, '',
-                    queryParameters: queryParameters, data: _data)
-                .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+    // final _result = await _dio.fetch<Map<String, dynamic>>(
+    //     _setStreamType<HttpResponse<GetTopAlbumsResponse>>(
+    //         Options(method: 'GET', headers: _headers, extra: _extra)
+    //             .compose(_dio.options, '',
+    //                 queryParameters: queryParameters, data: _data)
+    //             .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+
+    // fix api 400 err in flutter
+    final _result = await Dio().get(baseUrl ?? _dio.options.baseUrl,queryParameters: queryParameters,options: Options(headers: _headers));
     final value = GetTopAlbumsResponse.fromJson(_result.data!);
     final httpResponse = HttpResponse(value, _result);
     return httpResponse;
@@ -80,12 +86,16 @@ class _MusicService implements MusicService {
     };
     final _headers = <String, dynamic>{};
     final _data = <String, dynamic>{};
-    final _result = await _dio.fetch<Map<String, dynamic>>(
-        _setStreamType<HttpResponse<GetAlbumTracksResponse>>(
-            Options(method: 'GET', headers: _headers, extra: _extra)
-                .compose(_dio.options, '',
-                    queryParameters: queryParameters, data: _data)
-                .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+    // final _result = await _dio.fetch<Map<String, dynamic>>(
+    //     _setStreamType<HttpResponse<GetAlbumTracksResponse>>(
+    //         Options(method: 'GET', headers: _headers, extra: _extra)
+    //             .compose(_dio.options, '',
+    //                 queryParameters: queryParameters, data: _data)
+    //             .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
+
+    // fix api 400 err in flutter
+    final _result = await Dio().get(baseUrl ?? _dio.options.baseUrl,queryParameters: queryParameters,options: Options(headers: _headers));
+
     final value = GetAlbumTracksResponse.fromJson(_result.data!);
     final httpResponse = HttpResponse(value, _result);
     return httpResponse;

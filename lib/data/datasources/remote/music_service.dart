@@ -30,6 +30,7 @@ abstract class MusicService {
       {@Query('api_key') String apiKey = AppConst.kApiKey,
       @Query('format') String format = 'json',
       @Query('method') String method = 'artist.gettopalbums'});
+
   @GET('')
   Future<HttpResponse<GetAlbumTracksResponse>> getAlbumTracks(
       @Query('mbid') String mbid, @Query('artist') String artist,
