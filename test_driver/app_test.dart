@@ -52,7 +52,7 @@ void main() {
     final SerializableFinder albumDetailPageFinder =
         find.byType('AlbumDetailsPage');
 
-    test("check driver status", () async {
+    test("check flutter driver health", () async {
       Health? health = await driver?.checkHealth();
       print(health?.status);
     });
@@ -98,6 +98,7 @@ void main() {
 
     test("check redirection to top album page", () async {
       await driver?.tap(find.text(searchResultArtistName));
+      await driver?.waitUntilNoTransientCallbacks();
       await driver?.waitForAbsent(find.text(searchInputText));
       expect(
           await driver?.getWidgetDiagnostics(topAlbumPageFinder), isNotEmpty);
@@ -108,11 +109,13 @@ void main() {
     test("check like album", () async {
       await driver?.waitFor(likeButtonOfFirstAlbumFinder);
       await driver?.tap(likeButtonOfFirstAlbumFinder);
+      await driver?.waitUntilNoTransientCallbacks();
     });
 
     test("check album detailed page", () async {
       await driver?.waitFor(specificAlbumFinder);
       await driver?.tap(specificAlbumFinder);
+      await driver?.waitUntilNoTransientCallbacks();
       expect(await driver?.getWidgetDiagnostics(albumDetailPageFinder),
           isNotEmpty);
       expect(await driver?.getText(homePageAndAlbumDetailPageTitleFinder),
@@ -132,7 +135,34 @@ void main() {
       expect(await driver?.getWidgetDiagnostics(searchPageFinder), isNotEmpty);
     });
 
+    test("check search with another artist name", () async {
+      await driver?.tap(searchInputBoxFinder);
+      await driver?.enterText("");
+      await driver?.tap(searchInputBoxFinder);
+      await driver?.enterText('Justin');
+      await driver?.tap(searchIconFinder);
+      await driver?.waitUntilNoTransientCallbacks();
+      await driver?.waitFor(find.text('Justin Bieber'));
+      expect(
+          await driver?.getWidgetDiagnostics(find.text('Justin Bieber')),
+          isNotEmpty);
+    });
+
+    test("check unable to save err toast", () async {
+      await driver?.tap(find.text('Justin Bieber'));
+      await driver?.waitUntilNoTransientCallbacks();
+      await driver?.waitForAbsent(searchPageFinder);
+      expect(
+          await driver?.getWidgetDiagnostics(topAlbumPageFinder), isNotEmpty);
+      await driver?.tap(likeButtonOfFirstAlbumFinder);
+      await driver?.waitUntilNoTransientCallbacks();
+      // await driver?.waitFor(find.text('Sorry! we are unable to save your album Purpose (Deluxe)')); // not work
+    });
+
     test("check back to homepage", () async {
+      await driver?.tap(find.pageBack());
+      await driver?.waitForAbsent(topAlbumPageFinder);
+      expect(await driver?.getWidgetDiagnostics(searchPageFinder), isNotEmpty);
       await driver?.tap(find.pageBack());
       await driver?.waitForAbsent(searchPageFinder);
       expect(await driver?.getWidgetDiagnostics(homePageFinder), isNotEmpty);
@@ -145,6 +175,10 @@ void main() {
     test("check unlike album", () async {
       await driver?.waitFor(likeButtonOfFirstAlbumFinder);
       await driver?.tap(likeButtonOfFirstAlbumFinder);
+      await driver?.waitUntilNoTransientCallbacks();
+      await driver?.waitFor(homePageDefaultTextFinder);
+      expect(await driver?.getText(homePageDefaultTextFinder),
+          homePageDefaultText);
     });
   });
 }
