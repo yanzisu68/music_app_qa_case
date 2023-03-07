@@ -1,5 +1,7 @@
 # Integration Test
 
+Integration Test Execution Recording: https://drive.google.com/file/d/14-KS2tK9GU2ol4kv3DjkzkWDUPzm_Zsw/view?usp=share_link
+
  ### Run App
  - Using Android studio to open project
  - Double click to open `lib/main.dart` , select simulator to run App. Automatically open Xcode simulator to open App in ios simulator
