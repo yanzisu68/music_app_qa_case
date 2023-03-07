@@ -43,4 +43,6 @@
 | 7 | how to get one of the elements if the finder matched more than one |flutter driver limitation, cannot support to get first, lat, and any index of element like flutter_test in widget test|using `descendant` to find the first element. Example: `final SerializableFinder likeButtonOfFirstAlbumFinder = find.descendant( of: albumsWidgetFinder, matching: likeButtonFinder, firstMatchOnly: true);`|
 | 6 |Fultter_test package throw err|`import 'package:flutter_test/flutter_test.dart';` cannot be used for integration test, only valid for widget test|should use this package `import 'package:test/test.dart';` |
 | 7 | How to calculate widget count?||pending check|
+| 7 | How to test flutter toast msg?||pending check|
+
 
